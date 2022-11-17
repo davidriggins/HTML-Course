@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="David" content="Class project" />
+    <meta name="author" content="David" />
     <meta name="description" content="This is the project for the class" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
@@ -19,7 +19,9 @@
       <nav>
         <ul>
           <li>
-            <a href="#about">About LTS</a>
+            <a href="#about"
+              >About <abbr title="The Little Taco Shop">LTS</abbr></a
+            >
           </li>
           <li>
             <a href="#menu">Our Menu</a>
@@ -32,37 +34,34 @@
           </li>
         </ul>
       </nav>
-    </header>
-
-    <!-- This is the body main  -->
-    <main>
-      <!-- This is the tacos article (or section) -->
       <figure>
         <img
           src="img/tacos_and_drink_400x267.png"
           alt="Tacos and a Drink img"
-          title="Tacos and a Drink"
+          title="We love tacos."
           width="400"
           height="267"
         />
 
         <figcaption>Tacos and a Drink</figcaption>
       </figure>
+    </header>
 
-      <hr />
-
+    <hr />
+    <!-- This is the body main  -->
+    <main>
       <!-- This is the About LTS article -->
       <article id="about">
-        <h2>About <abbr title="Little Taco Shop">LTS</abbr></h2>
+        <h2>About <abbr title="The Little Taco Shop">LTS</abbr></h2>
         <p>
-          <abbr title="Little Taco Shop">LTS</abbr> was founded in
+          <abbr title="The Little Taco Shop">LTS</abbr> was founded in
           <time datetime="2022">2022</time>. Our shop was built from a
           <strong>love of tacos</strong> 🌮🌮🌮. We hope our shop adds a unique
           and interesting place to our little town.
         </p>
 
-        <h3>Taco Trivia</h3>
         <aside>
+          <h3>Taco Trivia</h3>
           <details>
             <summary>When did tacos first appear in the United States?</summary>
             <p>I do not know the answer to that.</p>
@@ -86,7 +85,7 @@
           <thead>
             <tr>
               <th>Tacos</th>
-              <th scope="col">Qty</th>
+              <th scope="col"><abbr title="Quantity">Qty</abbr></th>
               <th scope="col">Price</th>
             </tr>
           </thead>
@@ -125,20 +124,20 @@
           <!-- Table footer -->
           <tfoot>
             <tr>
-              <td colspan="3">Chips & Salsa $2</td>
+              <td colspan="3">Chips &amp; Salsa $2</td>
             </tr>
           </tfoot>
         </table>
+
+        <br />
+
+        <p>
+          <a href="#">Back to top</a>
+        </p>
       </article>
-
-      <br />
-
-      <p>
-        <a href="#">Back to top</a>
-      </p>
-
-      <hr />
     </main>
+
+    <hr />
 
     <footer>
       <p>Copyright &copy; The Little Taco Shop</p>

@@ -4,11 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="David" content="Class project" />
-    <meta name="description" content="This is the project for the class" />
+    <meta
+      name="description"
+      content="Contact information for The Little Taco Shop"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <title>The Little Taco Shop</title>
+    <title>Contact Us - LTS</title>
   </head>
 
   <body>
@@ -20,36 +23,38 @@
       <nav>
         <ul>
           <li>
-            <a href="index.html">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="index.html#menu">About LTS</a>
+            <a href="/#about"
+              >About <abbr title="The Little Taco Shop">LTS</abbr></a
+            >
           </li>
           <li>
-            <a href="index.html#menu">Our Menu</a>
+            <a href="/#menu">Our Menu</a>
           </li>
           <li>
-            <a href="hours.html#hours">Store Hours</a>
+            <a href="hours.html">Store Hours</a>
           </li>
         </ul>
       </nav>
-    </header>
 
-    <!-- This is the body main  -->
-    <main>
       <figure>
         <img
           src="img/tacos_close_up_400x260.png"
           alt="Little Taco Shop Tacos img"
-          title="Little Taco Shop Tacos"
+          title="Tacos ready to eat."
           width="400"
           height="260"
         />
 
         <figcaption>Little Taco Shop Tacos</figcaption>
       </figure>
+    </header>
 
-      <article id="contact">
+    <!-- This is the body main  -->
+    <main>
+      <section id="contact">
         <h2>Our Contact Form</h2>
 
         <form action="https://httpbin.org/post" method="post">
@@ -96,23 +101,22 @@
           <button type="submit">Send</button>
           <button type="reset">Reset</button>
         </form>
-      </article>
+      </section>
 
-      <article id="location">
+      <section id="location">
         <h2>Our Location</h2>
 
         <address>
           555 Taco Temptation Lane, Suite T <br />Kansas City, MO 55555-5555
+          <br />
+          <br />
+          Phone: <a href="tel:+5555555555">555-555-5555</a>
         </address>
-
-        <br />
-        <label><em>Phone:</em></label>
-        <a href="tel:+555-555-5555">555-555-5555</a>
 
         <p>
           <a href="#">Back to top</a>
         </p>
-      </article>
+      </section>
       <hr />
     </main>
     <footer>
